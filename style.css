@@ -1,0 +1,61 @@
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+
+}
+.container{
+    border: 3px solid red;
+    display: flex;
+    /*display: inline-flex;*/
+    /*flex-direction: row;  !* Right to left*!*/
+    /*flex-direction:row-reverse; !*Left to right *!*/
+    /*flex-direction:column; !*Top to Bottom *!*/
+    /*flex-direction: column-reverse; !* Bottom to Top *!*/
+    /* ------------------------------------------------------*/
+    /*flex-wrap: nowrap; */
+    /*flex-wrap: wrap; !* New line*!*/
+    /*flex-wrap: wrap-reverse; !* New line reverse*!*/
+    /* ------------------------------------------------------*/
+    /*flex-flow: row nowrap;*/
+    /*flex-flow: row wrap;*/
+    /*flex-flow: row-reverse;*/
+    /* ------------------------------------------------------*/
+    /*justify-content: flex-start; !* Phan tu nam dau *!*/
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*justify-content:space-evenly;*/
+    /* ------------------------------------------------------*/
+    /*align-items: stretch;*/
+    /*align-items:flex-start;*/
+    /*............*/
+    /* ------------------------------------------------------*/
+    /*align-content: flex-start;*/
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-around;*/
+    /*align-content: space-between;*/
+    /*align-content: space-evenly;*/
+}
+.box{
+    color: #fff;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+.box-1{
+    background-color: #ffcc99;
+}
+.box-2{
+    background-color: #006699;
+}
+.box-3{
+    background-color: #ff66cc;
+}
+.box-4{
+    background-color: antiquewhite;
+}
+.box-5{
+    background-color: #cc6600;
+}
